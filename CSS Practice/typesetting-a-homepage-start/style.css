@@ -1,0 +1,168 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #9A2E09;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+
+@font-face {
+  font-family: 'Alta-Serif';
+  src: url('');
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("Roboto-Regular.ttf");
+}
+
+html, body {font-family: "Roboto-Regular";}
+
+h1, h2 {font-family: "Museo Cyrl";}
+
+}
+
+  header {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  html {
+    font-size: 10px;
+  }
+
+  nav li {
+    color: #BB7D4B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid #9A2E09;
+    font-size: large; 
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+
+ header, h2 {
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-family: Comic Sans MS;
+  }
+
+  aside ul {
+    color: #a66;
+  }
+
+  body {
+    width: 300px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+  }
+  
+  p {
+    line-height: 1.4;
+  }
+  
+  a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+  
+  a:link {
+    color: #a66;
+  }
+  
+  a:visited {
+    color: #437A16;
+  }
+  
+  a:focus {
+    border-bottom: 1px solid;
+    background: #BAE498;
+  }
+  
+  a:hover {
+    border-bottom: 1px solid;
+    background: #CDFEAA;
+  }
+  
+  a:active {
+    background: #265301;
+    color: #a66;
+  }
+  
+
+  a[href*="http"] {
+    background: url('external-link-52.png') no-repeat 100% 0;
+    background-size: 12px 12px;
+    padding-right: 19px;
+  }
+
+  p::first-letter {
+    padding-left: 20px;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  nav a {
+    display: inline-block;
+    width: 100%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: #a66;
+  }
+
+  nav a:link, a:link, a:focus {
+    background: yellow;
+  }
+
+  nav a:hover {
+    background: orange;
+  }
+
+  nav a:active {
+    background: red;
+    color: white;
+  }

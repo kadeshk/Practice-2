@@ -18,7 +18,13 @@ body {
   .card
   
   /* Rulesets to be matched up with selectors */
- 
+
+  .card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+
  .card,
  article {
     width: 35em;
@@ -28,8 +34,7 @@ body {
     border: 0.2em solid black;
     border-radius: 1.5em;
     color: white;
-    text-align: left;
-
+    text-align: left; 
   }
   
 .card,
